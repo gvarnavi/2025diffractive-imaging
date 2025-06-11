@@ -10,11 +10,11 @@ project:
     - Diffractive Imaging
     - Phase Retrieval
   github: https://github.com/gvarnavi/2025diffractive-imaging
-  # jupyter: true
-  jupyter:
-    server:
-      url: 'http://localhost:8888'
-      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  jupyter: true
+  # jupyter:
+  #   server:
+  #     url: 'http://localhost:8888'
+  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
   date: 2025-06-11
@@ -82,6 +82,10 @@ project:
         - file: 14.upsampled-direct-ptychography.md
         - file: 15.upsampled-examples.md
         - file: 16.spectral-signal-to-noise.md
+    - title: Time-Resolved Phase Retrieval
+      children:
+        - file: 17.segmented-icom-ctf.md
+        - file: 18.segmented-ptychography-ctf.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
