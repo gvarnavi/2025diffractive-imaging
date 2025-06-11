@@ -79,6 +79,7 @@ project:
         - file: 11.analytical-ctf-ingredients.md
         - file: 12.tcbf-ctf.md
         - file: 13.direct-ptychography-ctf.md
+        - file: 14.upsampled-direct-ptychography.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
