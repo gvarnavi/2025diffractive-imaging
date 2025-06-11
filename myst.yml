@@ -57,6 +57,8 @@ project:
     HAADF: high angle annular dark field
     FFT: fast Fourier transform
     PCI: phase contrast imaging
+    tcBF: tilt corrected bright field STEM
+    SSB: single side band
   toc:
     - file: 1.index.md
     - title: Diffractive Imaging
@@ -72,6 +74,10 @@ project:
         - file: 8.tilt-corrected-bf-stem.md
         - file: 9.direct-ptychography.md
         - file: 10.iterative-ptychography.md
+    - title: Transfer of Information
+      children:
+        - file: 11.analytical-ctf-ingredients.md
+        - file: 12.tcbf-ctf.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
