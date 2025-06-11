@@ -61,7 +61,7 @@ project:
     SSB: single side band
   toc:
     - file: 1.index.md
-    - title: Diffractive Imaging
+    - title: Diffractive Imaging Introduction
       children:
         - file: 2.stem-measurements.md
         - file: 3.phase-problem.md
@@ -80,6 +80,8 @@ project:
         - file: 12.tcbf-ctf.md
         - file: 13.direct-ptychography-ctf.md
         - file: 14.upsampled-direct-ptychography.md
+        - file: 15.upsampled-examples.md
+        - file: 16.spectral-signal-to-noise.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
