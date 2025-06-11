@@ -10,11 +10,11 @@ project:
     - Diffractive Imaging
     - Phase Retrieval
   github: https://github.com/gvarnavi/2025diffractive-imaging
-  jupyter: true
-  # jupyter:
-  #   server:
-  #     url: 'http://localhost:8888'
-  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  # jupyter: true
+  jupyter:
+    server:
+      url: 'http://localhost:8888'
+      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
   date: 2025-06-11
@@ -78,6 +78,7 @@ project:
       children:
         - file: 11.analytical-ctf-ingredients.md
         - file: 12.tcbf-ctf.md
+        - file: 13.direct-ptychography-ctf.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
